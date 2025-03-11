@@ -1,5 +1,6 @@
 package org.iis2024;
 
+import java.sql.SQLOutput;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
@@ -17,6 +18,10 @@ import java.text.SimpleDateFormat;
  */
 public class Date {
   private int fieldAddedByCollaborator;
+
+  public void methodAddedByOwner() {
+    System.out.println("Method added by the owner");
+  }
 
   private final int day;
   private final int month;
